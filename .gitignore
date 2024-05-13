@@ -1,0 +1,10 @@
+# Django REST Framework
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+**/migrations/*.py
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/__pycache__/
+**/db.sqlite3**
