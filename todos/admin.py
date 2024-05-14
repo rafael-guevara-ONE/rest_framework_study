@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import Todo
 
+
 # Register your models here.
 
 class TodoAdmin(admin.ModelAdmin):
@@ -9,3 +10,4 @@ class TodoAdmin(admin.ModelAdmin):
         'body'    )
     
 admin.site.register(Todo, TodoAdmin)
+
